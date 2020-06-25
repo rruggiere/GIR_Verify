@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Alctel_Gen_ICONModelStoreContainer" CdmEntityContainer="Alctel_Gen_ICONEntities">
+    <EntitySetMapping Name="G_CALL">
+      <EntityTypeMapping TypeName="Alctel_Gen_ICONModel.G_CALL">
+        <MappingFragment StoreEntitySet="G_CALL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CALLID" ColumnName="CALLID" />
+          <ScalarProperty Name="PARENTCALLID" ColumnName="PARENTCALLID" />
+          <ScalarProperty Name="MERGECALLID" ColumnName="MERGECALLID" />
+          <ScalarProperty Name="MERGETYPE" ColumnName="MERGETYPE" />
+          <ScalarProperty Name="CONNID" ColumnName="CONNID" />
+          <ScalarProperty Name="CONNIDNUM" ColumnName="CONNIDNUM" />
+          <ScalarProperty Name="SWITCHCALLID" ColumnName="SWITCHCALLID" />
+          <ScalarProperty Name="IRID" ColumnName="IRID" />
+          <ScalarProperty Name="ROOTIRID" ColumnName="ROOTIRID" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+          <ScalarProperty Name="CALLTYPE" ColumnName="CALLTYPE" />
+          <ScalarProperty Name="MEDIATYPE" ColumnName="MEDIATYPE" />
+          <ScalarProperty Name="SWITCHID" ColumnName="SWITCHID" />
+          <ScalarProperty Name="TENANTID" ColumnName="TENANTID" />
+          <ScalarProperty Name="CALLANI" ColumnName="CALLANI" />
+          <ScalarProperty Name="CALLDNIS" ColumnName="CALLDNIS" />
+          <ScalarProperty Name="CREATED" ColumnName="CREATED" />
+          <ScalarProperty Name="CREATED_TS" ColumnName="CREATED_TS" />
+          <ScalarProperty Name="CREATED_TCODE" ColumnName="CREATED_TCODE" />
+          <ScalarProperty Name="TERMINATED" ColumnName="TERMINATED" />
+          <ScalarProperty Name="TERMINATED_TS" ColumnName="TERMINATED_TS" />
+          <ScalarProperty Name="TERMINATED_TCODE" ColumnName="TERMINATED_TCODE" />
+          <ScalarProperty Name="GSYS_DOMAIN" ColumnName="GSYS_DOMAIN" />
+          <ScalarProperty Name="GSYS_PARTITION" ColumnName="GSYS_PARTITION" />
+          <ScalarProperty Name="GSYS_SYS_ID" ColumnName="GSYS_SYS_ID" />
+          <ScalarProperty Name="GSYS_SEQ" ColumnName="GSYS_SEQ" />
+          <ScalarProperty Name="GSYS_USEQ" ColumnName="GSYS_USEQ" />
+          <ScalarProperty Name="GSYS_TS" ColumnName="GSYS_TS" />
+          <ScalarProperty Name="GSYS_TC" ColumnName="GSYS_TC" />
+          <ScalarProperty Name="GSYS_EXT_VCH1" ColumnName="GSYS_EXT_VCH1" />
+          <ScalarProperty Name="GSYS_EXT_VCH2" ColumnName="GSYS_EXT_VCH2" />
+          <ScalarProperty Name="GSYS_EXT_INT1" ColumnName="GSYS_EXT_INT1" />
+          <ScalarProperty Name="GSYS_EXT_INT2" ColumnName="GSYS_EXT_INT2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="G_PARTY">
+      <EntityTypeMapping TypeName="Alctel_Gen_ICONModel.G_PARTY">
+        <MappingFragment StoreEntitySet="G_PARTY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PARTYID" ColumnName="PARTYID" />
+          <ScalarProperty Name="PARTYGUID" ColumnName="PARTYGUID" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+          <ScalarProperty Name="PROLE" ColumnName="PROLE" />
+          <ScalarProperty Name="PARENTPARTYID" ColumnName="PARENTPARTYID" />
+          <ScalarProperty Name="PARENTLINKTYPE" ColumnName="PARENTLINKTYPE" />
+          <ScalarProperty Name="CALLID" ColumnName="CALLID" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+          <ScalarProperty Name="ENDPOINTDN" ColumnName="ENDPOINTDN" />
+          <ScalarProperty Name="ENDPOINTID" ColumnName="ENDPOINTID" />
+          <ScalarProperty Name="ENDPOINTTYPE" ColumnName="ENDPOINTTYPE" />
+          <ScalarProperty Name="TENANTID" ColumnName="TENANTID" />
+          <ScalarProperty Name="AGENTID" ColumnName="AGENTID" />
+          <ScalarProperty Name="CCEVENT" ColumnName="CCEVENT" />
+          <ScalarProperty Name="CCEVENTCAUSE" ColumnName="CCEVENTCAUSE" />
+          <ScalarProperty Name="CREATED" ColumnName="CREATED" />
+          <ScalarProperty Name="CREATED_TS" ColumnName="CREATED_TS" />
+          <ScalarProperty Name="CREATED_TCODE" ColumnName="CREATED_TCODE" />
+          <ScalarProperty Name="TERMINATED" ColumnName="TERMINATED" />
+          <ScalarProperty Name="TERMINATED_TS" ColumnName="TERMINATED_TS" />
+          <ScalarProperty Name="TERMINATED_TCODE" ColumnName="TERMINATED_TCODE" />
+          <ScalarProperty Name="LASTCHANGE" ColumnName="LASTCHANGE" />
+          <ScalarProperty Name="LASTCHANGE_TS" ColumnName="LASTCHANGE_TS" />
+          <ScalarProperty Name="LASTCHANGE_TCODE" ColumnName="LASTCHANGE_TCODE" />
+          <ScalarProperty Name="GSYS_DOMAIN" ColumnName="GSYS_DOMAIN" />
+          <ScalarProperty Name="GSYS_PARTITION" ColumnName="GSYS_PARTITION" />
+          <ScalarProperty Name="GSYS_SYS_ID" ColumnName="GSYS_SYS_ID" />
+          <ScalarProperty Name="GSYS_SEQ" ColumnName="GSYS_SEQ" />
+          <ScalarProperty Name="GSYS_USEQ" ColumnName="GSYS_USEQ" />
+          <ScalarProperty Name="GSYS_TS" ColumnName="GSYS_TS" />
+          <ScalarProperty Name="GSYS_TC" ColumnName="GSYS_TC" />
+          <ScalarProperty Name="GSYS_EXT_VCH1" ColumnName="GSYS_EXT_VCH1" />
+          <ScalarProperty Name="GSYS_EXT_VCH2" ColumnName="GSYS_EXT_VCH2" />
+          <ScalarProperty Name="GSYS_EXT_INT1" ColumnName="GSYS_EXT_INT1" />
+          <ScalarProperty Name="GSYS_EXT_INT2" ColumnName="GSYS_EXT_INT2" />
+          <ScalarProperty Name="TS_PARENTPARTYGUID" ColumnName="TS_PARENTPARTYGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="G_PARTY_STAT">
+      <EntityTypeMapping TypeName="Alctel_Gen_ICONModel.G_PARTY_STAT">
+        <MappingFragment StoreEntitySet="G_PARTY_STAT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PARTYID" ColumnName="PARTYID" />
+          <ScalarProperty Name="TT_ALERTING" ColumnName="TT_ALERTING" />
+          <ScalarProperty Name="TT_CONNECTED" ColumnName="TT_CONNECTED" />
+          <ScalarProperty Name="TT_HOLD" ColumnName="TT_HOLD" />
+          <ScalarProperty Name="TT_QUEUED" ColumnName="TT_QUEUED" />
+          <ScalarProperty Name="TT_ACW" ColumnName="TT_ACW" />
+          <ScalarProperty Name="CNT_ALERTING" ColumnName="CNT_ALERTING" />
+          <ScalarProperty Name="CNT_CONNECTED" ColumnName="CNT_CONNECTED" />
+          <ScalarProperty Name="CNT_HOLD" ColumnName="CNT_HOLD" />
+          <ScalarProperty Name="CNT_QUEUED" ColumnName="CNT_QUEUED" />
+          <ScalarProperty Name="CNT_ACW" ColumnName="CNT_ACW" />
+          <ScalarProperty Name="TT_ON_ALERT" ColumnName="TT_ON_ALERT" />
+          <ScalarProperty Name="TT_ON_HOLD" ColumnName="TT_ON_HOLD" />
+          <ScalarProperty Name="TT_ON_QUEUE" ColumnName="TT_ON_QUEUE" />
+          <ScalarProperty Name="TT_ON_CONNECTED" ColumnName="TT_ON_CONNECTED" />
+          <ScalarProperty Name="T_DURATION" ColumnName="T_DURATION" />
+          <ScalarProperty Name="GSYS_DOMAIN" ColumnName="GSYS_DOMAIN" />
+          <ScalarProperty Name="GSYS_PARTITION" ColumnName="GSYS_PARTITION" />
+          <ScalarProperty Name="GSYS_SYS_ID" ColumnName="GSYS_SYS_ID" />
+          <ScalarProperty Name="GSYS_SEQ" ColumnName="GSYS_SEQ" />
+          <ScalarProperty Name="GSYS_USEQ" ColumnName="GSYS_USEQ" />
+          <ScalarProperty Name="GSYS_TS" ColumnName="GSYS_TS" />
+          <ScalarProperty Name="GSYS_TC" ColumnName="GSYS_TC" />
+          <ScalarProperty Name="GSYS_EXT_VCH1" ColumnName="GSYS_EXT_VCH1" />
+          <ScalarProperty Name="GSYS_EXT_VCH2" ColumnName="GSYS_EXT_VCH2" />
+          <ScalarProperty Name="GSYS_EXT_INT1" ColumnName="GSYS_EXT_INT1" />
+          <ScalarProperty Name="GSYS_EXT_INT2" ColumnName="GSYS_EXT_INT2" />
+          <ScalarProperty Name="PM_EXT_1" ColumnName="PM_EXT_1" />
+          <ScalarProperty Name="PM_EXT_2" ColumnName="PM_EXT_2" />
+          <ScalarProperty Name="PM_EXT_3" ColumnName="PM_EXT_3" />
+          <ScalarProperty Name="PM_EXT_4" ColumnName="PM_EXT_4" />
+          <ScalarProperty Name="PM_EXT_5" ColumnName="PM_EXT_5" />
+          <ScalarProperty Name="PM_EXT_6" ColumnName="PM_EXT_6" />
+          <ScalarProperty Name="PM_EXT_7" ColumnName="PM_EXT_7" />
+          <ScalarProperty Name="PM_EXT_8" ColumnName="PM_EXT_8" />
+          <ScalarProperty Name="PM_EXT_9" ColumnName="PM_EXT_9" />
+          <ScalarProperty Name="PM_EXT_10" ColumnName="PM_EXT_10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

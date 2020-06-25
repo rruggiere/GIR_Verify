@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Alctel_Gen_SPEECHMINERModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="callAudioTbl">
+    <Key>
+      <PropertyRef Name="callId" />
+      <PropertyRef Name="segmentId" />
+      <PropertyRef Name="owner" />
+      <PropertyRef Name="format" />
+      <PropertyRef Name="stretchSpeed" />
+      <PropertyRef Name="siteId" />
+    </Key>
+    <Property Name="callId" Type="Int32" Nullable="false" />
+    <Property Name="segmentId" Type="Int32" Nullable="false" />
+    <Property Name="owner" Type="Int32" Nullable="false" />
+    <Property Name="format" Type="Int32" Nullable="false" />
+    <Property Name="stretchSpeed" Type="Single" Nullable="false" />
+    <Property Name="siteId" Type="Int32" Nullable="false" />
+    <Property Name="audioLen" Type="Int32" Nullable="false" />
+    <Property Name="samplingRate" Type="Int32" Nullable="false" />
+    <Property Name="storeMode" Type="Int32" Nullable="false" />
+    <Property Name="audio" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="folder" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="filename" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Name="encryptionKey" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="callMetaTbl">
+    <Key>
+      <PropertyRef Name="callId" />
+    </Key>
+    <Property Name="callId" Type="Int32" Nullable="false" />
+    <Property Name="customerId" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="customerGroupId" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="callTime" Type="Int32" Nullable="false" />
+    <Property Name="callDuration" Type="Single" Nullable="false" />
+    <Property Name="programId" Type="Int32" Nullable="false" />
+    <Property Name="externalId" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="audioStatus" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Alctel_Gen_SPEECHMINEREntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="callAudioTbl" EntityType="Self.callAudioTbl" />
+    <EntitySet Name="callMetaTbl" EntityType="Self.callMetaTbl" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,45 @@
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\GIR_Preventive_APVS.csprojAssemblyReference.cache
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\GIR_Preventive_APVS.csproj.CoreCompileInputs.cache
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\TesteDB.exe
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\TesteDB.pdb
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\TesteDB.exe
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\TesteDB.pdb
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\EntityFramework.dll
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\EntityFramework.xml
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\reina\Projects\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\GIR_Preventive_APVS.csproj.CopyComplete
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\GIR_Preventive_APVS.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\GIR_Preventive_APVS.exe.config
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\GIR_Preventive_APVS.exe
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\GIR_Preventive_APVS.pdb
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\EntityFramework.dll
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\EntityFramework.xml
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\GIR_Preventive_APVS.csproj.CopyComplete
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\GIR_Preventive_APVS.exe
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_1.1\GIR - Preventiva_Versão_1.1\APVS\obj\Debug\GIR_Preventive_APVS.pdb
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.csprojAssemblyReference.cache
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.csproj.CoreCompileInputs.cache
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.exe
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.pdb
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\GIR_Preventive_APVS.exe.config
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\GIR_Preventive_APVS.exe
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\GIR_Preventive_APVS.pdb
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\EntityFramework.dll
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\EntityFramework.xml
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.csproj.CopyComplete
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\GIR_Preventive_APVS.exe.config
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\GIR_Preventive_APVS.exe
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\GIR_Preventive_APVS.pdb
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\EntityFramework.dll
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\EntityFramework.xml
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.csproj.CopyComplete
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.exe
+C:\Users\reinaldo.cruz\Desktop\PROJECTO\GIR - Preventiva_Versão_2.0\GIR - Preventiva_Versão_2.0\APVS\obj\Debug\GIR_Preventive_APVS.pdb

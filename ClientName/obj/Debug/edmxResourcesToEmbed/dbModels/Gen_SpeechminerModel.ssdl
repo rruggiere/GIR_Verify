@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Alc_Gen_SPEECHMINERModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="callAudioTbl">
+    <Key>
+      <PropertyRef Name="callId" />
+      <PropertyRef Name="segmentId" />
+      <PropertyRef Name="owner" />
+      <PropertyRef Name="format" />
+      <PropertyRef Name="stretchSpeed" />
+      <PropertyRef Name="siteId" />
+    </Key>
+    <Property Name="callId" Type="int" Nullable="false" />
+    <Property Name="segmentId" Type="int" Nullable="false" />
+    <Property Name="owner" Type="int" Nullable="false" />
+    <Property Name="format" Type="int" Nullable="false" />
+    <Property Name="stretchSpeed" Type="real" Nullable="false" />
+    <Property Name="siteId" Type="int" Nullable="false" />
+    <Property Name="audioLen" Type="int" Nullable="false" />
+    <Property Name="samplingRate" Type="int" Nullable="false" />
+    <Property Name="storeMode" Type="int" Nullable="false" />
+    <Property Name="audio" Type="image" />
+    <Property Name="folder" Type="nvarchar(max)" />
+    <Property Name="filename" Type="varchar" MaxLength="256" />
+    <Property Name="encryptionKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="callMetaTbl">
+    <Key>
+      <PropertyRef Name="callId" />
+    </Key>
+    <Property Name="callId" Type="int" Nullable="false" />
+    <Property Name="customerId" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="customerGroupId" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="callTime" Type="int" Nullable="false" />
+    <Property Name="callDuration" Type="real" Nullable="false" />
+    <Property Name="programId" Type="int" Nullable="false" />
+    <Property Name="externalId" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="audioStatus" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Alc_Gen_SPEECHMINERModelStoreContainer">
+    <EntitySet Name="callAudioTbl" EntityType="Self.callAudioTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="callMetaTbl" EntityType="Self.callMetaTbl" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

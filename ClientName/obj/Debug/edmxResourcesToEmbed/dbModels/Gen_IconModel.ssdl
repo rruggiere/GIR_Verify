@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Alc_Gen_ICONModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="G_CALL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="numeric" Precision="16" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CALLID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PARENTCALLID" Type="varchar" MaxLength="50" />
+    <Property Name="MERGECALLID" Type="varchar" MaxLength="50" />
+    <Property Name="MERGETYPE" Type="int" />
+    <Property Name="CONNID" Type="varchar" MaxLength="50" />
+    <Property Name="CONNIDNUM" Type="numeric" Precision="20" Scale="0" />
+    <Property Name="SWITCHCALLID" Type="int" />
+    <Property Name="IRID" Type="varchar" MaxLength="50" />
+    <Property Name="ROOTIRID" Type="varchar" MaxLength="50" />
+    <Property Name="STATE" Type="int" />
+    <Property Name="CALLTYPE" Type="int" />
+    <Property Name="MEDIATYPE" Type="int" />
+    <Property Name="SWITCHID" Type="int" />
+    <Property Name="TENANTID" Type="int" />
+    <Property Name="CALLANI" Type="varchar" MaxLength="50" />
+    <Property Name="CALLDNIS" Type="varchar" MaxLength="50" />
+    <Property Name="CREATED" Type="datetime" Nullable="false" />
+    <Property Name="CREATED_TS" Type="int" />
+    <Property Name="CREATED_TCODE" Type="int" />
+    <Property Name="TERMINATED" Type="datetime" />
+    <Property Name="TERMINATED_TS" Type="int" />
+    <Property Name="TERMINATED_TCODE" Type="int" />
+    <Property Name="GSYS_DOMAIN" Type="int" />
+    <Property Name="GSYS_PARTITION" Type="int" />
+    <Property Name="GSYS_SYS_ID" Type="int" />
+    <Property Name="GSYS_SEQ" Type="bigint" />
+    <Property Name="GSYS_USEQ" Type="bigint" />
+    <Property Name="GSYS_TS" Type="datetime" />
+    <Property Name="GSYS_TC" Type="int" />
+    <Property Name="GSYS_EXT_VCH1" Type="varchar" MaxLength="255" />
+    <Property Name="GSYS_EXT_VCH2" Type="varchar" MaxLength="255" />
+    <Property Name="GSYS_EXT_INT1" Type="int" />
+    <Property Name="GSYS_EXT_INT2" Type="int" />
+  </EntityType>
+  <EntityType Name="G_PARTY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="numeric" Precision="16" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PARTYID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PARTYGUID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TYPE" Type="int" Nullable="false" />
+    <Property Name="PROLE" Type="int" Nullable="false" />
+    <Property Name="PARENTPARTYID" Type="varchar" MaxLength="50" />
+    <Property Name="PARENTLINKTYPE" Type="int" />
+    <Property Name="CALLID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="STATE" Type="int" Nullable="false" />
+    <Property Name="ENDPOINTDN" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="ENDPOINTID" Type="int" Nullable="false" />
+    <Property Name="ENDPOINTTYPE" Type="int" Nullable="false" />
+    <Property Name="TENANTID" Type="int" />
+    <Property Name="AGENTID" Type="int" />
+    <Property Name="CCEVENT" Type="int" />
+    <Property Name="CCEVENTCAUSE" Type="int" />
+    <Property Name="CREATED" Type="datetime" Nullable="false" />
+    <Property Name="CREATED_TS" Type="int" />
+    <Property Name="CREATED_TCODE" Type="int" />
+    <Property Name="TERMINATED" Type="datetime" />
+    <Property Name="TERMINATED_TS" Type="int" />
+    <Property Name="TERMINATED_TCODE" Type="int" />
+    <Property Name="LASTCHANGE" Type="datetime" Nullable="false" />
+    <Property Name="LASTCHANGE_TS" Type="int" />
+    <Property Name="LASTCHANGE_TCODE" Type="int" />
+    <Property Name="GSYS_DOMAIN" Type="int" />
+    <Property Name="GSYS_PARTITION" Type="int" />
+    <Property Name="GSYS_SYS_ID" Type="int" />
+    <Property Name="GSYS_SEQ" Type="bigint" />
+    <Property Name="GSYS_USEQ" Type="bigint" />
+    <Property Name="GSYS_TS" Type="datetime" />
+    <Property Name="GSYS_TC" Type="int" />
+    <Property Name="GSYS_EXT_VCH1" Type="varchar" MaxLength="255" />
+    <Property Name="GSYS_EXT_VCH2" Type="varchar" MaxLength="255" />
+    <Property Name="GSYS_EXT_INT1" Type="int" />
+    <Property Name="GSYS_EXT_INT2" Type="int" />
+    <Property Name="TS_PARENTPARTYGUID" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="G_PARTY_STAT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="numeric" Precision="16" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PARTYID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TT_ALERTING" Type="int" />
+    <Property Name="TT_CONNECTED" Type="int" />
+    <Property Name="TT_HOLD" Type="int" />
+    <Property Name="TT_QUEUED" Type="int" />
+    <Property Name="TT_ACW" Type="int" />
+    <Property Name="CNT_ALERTING" Type="int" />
+    <Property Name="CNT_CONNECTED" Type="int" />
+    <Property Name="CNT_HOLD" Type="int" />
+    <Property Name="CNT_QUEUED" Type="int" />
+    <Property Name="CNT_ACW" Type="int" />
+    <Property Name="TT_ON_ALERT" Type="int" />
+    <Property Name="TT_ON_HOLD" Type="int" />
+    <Property Name="TT_ON_QUEUE" Type="int" />
+    <Property Name="TT_ON_CONNECTED" Type="int" />
+    <Property Name="T_DURATION" Type="int" />
+    <Property Name="GSYS_DOMAIN" Type="int" />
+    <Property Name="GSYS_PARTITION" Type="int" />
+    <Property Name="GSYS_SYS_ID" Type="int" />
+    <Property Name="GSYS_SEQ" Type="bigint" />
+    <Property Name="GSYS_USEQ" Type="bigint" />
+    <Property Name="GSYS_TS" Type="datetime" />
+    <Property Name="GSYS_TC" Type="int" />
+    <Property Name="GSYS_EXT_VCH1" Type="varchar" MaxLength="255" />
+    <Property Name="GSYS_EXT_VCH2" Type="varchar" MaxLength="255" />
+    <Property Name="GSYS_EXT_INT1" Type="int" />
+    <Property Name="GSYS_EXT_INT2" Type="int" />
+    <Property Name="PM_EXT_1" Type="int" />
+    <Property Name="PM_EXT_2" Type="int" />
+    <Property Name="PM_EXT_3" Type="int" />
+    <Property Name="PM_EXT_4" Type="int" />
+    <Property Name="PM_EXT_5" Type="int" />
+    <Property Name="PM_EXT_6" Type="int" />
+    <Property Name="PM_EXT_7" Type="int" />
+    <Property Name="PM_EXT_8" Type="int" />
+    <Property Name="PM_EXT_9" Type="int" />
+    <Property Name="PM_EXT_10" Type="int" />
+  </EntityType>
+  <EntityContainer Name="Alc_Gen_ICONModelStoreContainer">
+    <EntitySet Name="G_CALL" EntityType="Self.G_CALL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="G_PARTY" EntityType="Self.G_PARTY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="G_PARTY_STAT" EntityType="Self.G_PARTY_STAT" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

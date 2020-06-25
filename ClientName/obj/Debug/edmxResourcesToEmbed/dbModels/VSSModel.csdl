@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlcVSSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alc_mtr001LogChamadas">
+    <Key>
+      <PropertyRef Name="sequencial" />
+      <PropertyRef Name="evt_connid" />
+      <PropertyRef Name="evt_hora" />
+      <PropertyRef Name="evt_id" />
+      <PropertyRef Name="evt_nome" />
+      <PropertyRef Name="evt_origem" />
+      <PropertyRef Name="evt_fila" />
+      <PropertyRef Name="evt_agentid" />
+      <PropertyRef Name="evt_thisDN" />
+      <PropertyRef Name="evt_otherdn" />
+      <PropertyRef Name="evt_thisqueue" />
+      <PropertyRef Name="evt_otherqueue" />
+      <PropertyRef Name="evt_callstate" />
+      <PropertyRef Name="evt_registro" />
+    </Key>
+    <Property Name="sequencial" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="evt_connid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_hora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="evt_id" Type="Int32" Nullable="false" />
+    <Property Name="evt_nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_origem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_fila" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_agentid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_thisDN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_otherdn" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_thisqueue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_otherqueue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="evt_callstate" Type="Int32" Nullable="false" />
+    <Property Name="evt_registro" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="AlcVSSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alc_mtr001LogChamadas" EntityType="Self.Alc_mtr001LogChamadas" />
+  </EntityContainer>
+</Schema>

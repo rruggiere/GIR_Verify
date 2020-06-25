@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlctelVSSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AlctelVSS.dbo.Alc_mtr001LogChamadas' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Alc_mtr001LogChamadas">
+    <Key>
+      <PropertyRef Name="sequencial" />
+      <PropertyRef Name="evt_connid" />
+      <PropertyRef Name="evt_hora" />
+      <PropertyRef Name="evt_id" />
+      <PropertyRef Name="evt_nome" />
+      <PropertyRef Name="evt_origem" />
+      <PropertyRef Name="evt_fila" />
+      <PropertyRef Name="evt_agentid" />
+      <PropertyRef Name="evt_thisDN" />
+      <PropertyRef Name="evt_otherdn" />
+      <PropertyRef Name="evt_thisqueue" />
+      <PropertyRef Name="evt_otherqueue" />
+      <PropertyRef Name="evt_callstate" />
+      <PropertyRef Name="evt_registro" />
+    </Key>
+    <Property Name="sequencial" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="evt_connid" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_hora" Type="datetime" Nullable="false" />
+    <Property Name="evt_id" Type="int" Nullable="false" />
+    <Property Name="evt_nome" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_origem" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_fila" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_agentid" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_thisDN" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_otherdn" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_thisqueue" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_otherqueue" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="evt_callstate" Type="int" Nullable="false" />
+    <Property Name="evt_registro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AlctelVSSModelStoreContainer">
+    <EntitySet Name="Alc_mtr001LogChamadas" EntityType="Self.Alc_mtr001LogChamadas" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Alc_mtr001LogChamadas].[sequencial] AS [sequencial], 
+    [Alc_mtr001LogChamadas].[evt_connid] AS [evt_connid], 
+    [Alc_mtr001LogChamadas].[evt_hora] AS [evt_hora], 
+    [Alc_mtr001LogChamadas].[evt_id] AS [evt_id], 
+    [Alc_mtr001LogChamadas].[evt_nome] AS [evt_nome], 
+    [Alc_mtr001LogChamadas].[evt_origem] AS [evt_origem], 
+    [Alc_mtr001LogChamadas].[evt_fila] AS [evt_fila], 
+    [Alc_mtr001LogChamadas].[evt_agentid] AS [evt_agentid], 
+    [Alc_mtr001LogChamadas].[evt_thisDN] AS [evt_thisDN], 
+    [Alc_mtr001LogChamadas].[evt_otherdn] AS [evt_otherdn], 
+    [Alc_mtr001LogChamadas].[evt_thisqueue] AS [evt_thisqueue], 
+    [Alc_mtr001LogChamadas].[evt_otherqueue] AS [evt_otherqueue], 
+    [Alc_mtr001LogChamadas].[evt_callstate] AS [evt_callstate], 
+    [Alc_mtr001LogChamadas].[evt_registro] AS [evt_registro]
+    FROM [dbo].[Alc_mtr001LogChamadas] AS [Alc_mtr001LogChamadas]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

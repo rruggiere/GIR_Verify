@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Alc_Gen_SPEECHMINERModelStoreContainer" CdmEntityContainer="Alc_Gen_SPEECHMINEREntities">
+    <EntitySetMapping Name="callAudioTbl">
+      <EntityTypeMapping TypeName="Alc_Gen_SPEECHMINERModel.callAudioTbl">
+        <MappingFragment StoreEntitySet="callAudioTbl">
+          <ScalarProperty Name="callId" ColumnName="callId" />
+          <ScalarProperty Name="segmentId" ColumnName="segmentId" />
+          <ScalarProperty Name="owner" ColumnName="owner" />
+          <ScalarProperty Name="format" ColumnName="format" />
+          <ScalarProperty Name="stretchSpeed" ColumnName="stretchSpeed" />
+          <ScalarProperty Name="siteId" ColumnName="siteId" />
+          <ScalarProperty Name="audioLen" ColumnName="audioLen" />
+          <ScalarProperty Name="samplingRate" ColumnName="samplingRate" />
+          <ScalarProperty Name="storeMode" ColumnName="storeMode" />
+          <ScalarProperty Name="audio" ColumnName="audio" />
+          <ScalarProperty Name="folder" ColumnName="folder" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="encryptionKey" ColumnName="encryptionKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="callMetaTbl">
+      <EntityTypeMapping TypeName="Alc_Gen_SPEECHMINERModel.callMetaTbl">
+        <MappingFragment StoreEntitySet="callMetaTbl">
+          <ScalarProperty Name="callId" ColumnName="callId" />
+          <ScalarProperty Name="customerId" ColumnName="customerId" />
+          <ScalarProperty Name="customerGroupId" ColumnName="customerGroupId" />
+          <ScalarProperty Name="callTime" ColumnName="callTime" />
+          <ScalarProperty Name="callDuration" ColumnName="callDuration" />
+          <ScalarProperty Name="programId" ColumnName="programId" />
+          <ScalarProperty Name="externalId" ColumnName="externalId" />
+          <ScalarProperty Name="audioStatus" ColumnName="audioStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

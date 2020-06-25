@@ -1,0 +1,44 @@
+C:\Users\reinaldo.cruz\source\repos\TesteDB\bin\Debug\TesteDB.exe.config
+C:\Users\reinaldo.cruz\source\repos\TesteDB\bin\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\source\repos\TesteDB\bin\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\source\repos\TesteDB\obj\Debug\TesteDB.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\source\repos\TesteDB\obj\Debug\TesteDB.csproj.CoreCompileInputs.cache
+C:\Users\reinaldo.cruz\source\repos\TesteDB\obj\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\source\repos\TesteDB\obj\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\source\repos\GIR - Preventiva\bin\Debug\TesteDB.exe.config
+C:\Users\reinaldo.cruz\source\repos\GIR - Preventiva\bin\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\source\repos\GIR - Preventiva\bin\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\source\repos\GIR - Preventiva\obj\Debug\TesteDB.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\source\repos\GIR - Preventiva\obj\Debug\TesteDB.csproj.CoreCompileInputs.cache
+C:\Users\reinaldo.cruz\source\repos\GIR - Preventiva\obj\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\source\repos\GIR - Preventiva\obj\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Backup\GIR - Preventiva\bin\Debug\TesteDB.exe.config
+C:\Users\reinaldo.cruz\Desktop\Backup\GIR - Preventiva\bin\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Backup\GIR - Preventiva\bin\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Backup\GIR - Preventiva\obj\Debug\TesteDB.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\Desktop\Backup\GIR - Preventiva\obj\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Backup\GIR - Preventiva\obj\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva\bin\Debug\TesteDB.exe.config
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva\bin\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva\bin\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva\obj\Debug\TesteDB.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva\obj\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva\obj\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva Email\obj\Debug\TesteDB.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva Email\obj\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva Email\obj\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva Email\bin\Debug\TesteDB.exe.config
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva Email\bin\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva Email\bin\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\bin\Debug\TesteDB.exe.config
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\bin\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\bin\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\obj\Debug\TesteDB.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\obj\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\obj\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\APVS\bin\Debug\TesteDB.exe.config
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\APVS\bin\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\APVS\bin\Debug\TesteDB.pdb
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\APVS\obj\Debug\TesteDB.csprojAssemblyReference.cache
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\APVS\obj\Debug\TesteDB.exe
+C:\Users\reinaldo.cruz\Desktop\Utils\Backup\GIR - Preventiva_Versão_1.0\APVS\obj\Debug\TesteDB.pdb

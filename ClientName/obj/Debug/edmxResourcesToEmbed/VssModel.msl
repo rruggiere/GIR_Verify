@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AlctelVSSModelStoreContainer" CdmEntityContainer="AlctelVSSEntities">
+    <EntitySetMapping Name="Alc_mtr001LogChamadas">
+      <EntityTypeMapping TypeName="AlctelVSSModel.Alc_mtr001LogChamadas">
+        <MappingFragment StoreEntitySet="Alc_mtr001LogChamadas">
+          <ScalarProperty Name="sequencial" ColumnName="sequencial" />
+          <ScalarProperty Name="evt_connid" ColumnName="evt_connid" />
+          <ScalarProperty Name="evt_hora" ColumnName="evt_hora" />
+          <ScalarProperty Name="evt_id" ColumnName="evt_id" />
+          <ScalarProperty Name="evt_nome" ColumnName="evt_nome" />
+          <ScalarProperty Name="evt_origem" ColumnName="evt_origem" />
+          <ScalarProperty Name="evt_fila" ColumnName="evt_fila" />
+          <ScalarProperty Name="evt_agentid" ColumnName="evt_agentid" />
+          <ScalarProperty Name="evt_thisDN" ColumnName="evt_thisDN" />
+          <ScalarProperty Name="evt_otherdn" ColumnName="evt_otherdn" />
+          <ScalarProperty Name="evt_thisqueue" ColumnName="evt_thisqueue" />
+          <ScalarProperty Name="evt_otherqueue" ColumnName="evt_otherqueue" />
+          <ScalarProperty Name="evt_callstate" ColumnName="evt_callstate" />
+          <ScalarProperty Name="evt_registro" ColumnName="evt_registro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

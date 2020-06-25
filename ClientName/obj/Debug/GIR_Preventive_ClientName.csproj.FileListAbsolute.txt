@@ -1,0 +1,12 @@
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\bin\Debug\GIR_Preventive_ClientName.exe.config
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\bin\Debug\GIR_Preventive_ClientName.exe
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\bin\Debug\GIR_Preventive_ClientName.pdb
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\bin\Debug\EntityFramework.dll
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\bin\Debug\EntityFramework.xml
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\obj\Debug\GIR_Preventive_ClientName.csprojAssemblyReference.cache
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\obj\Debug\GIR_Preventive_ClientName.csproj.CoreCompileInputs.cache
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\obj\Debug\GIR_Preventive_ClientName.csproj.CopyComplete
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\obj\Debug\GIR_Preventive_ClientName.exe
+C:\Users\reina\Projects\GIR - Preventiva_Versão_2.1\ClientName\obj\Debug\GIR_Preventive_ClientName.pdb

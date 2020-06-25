@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AlcVSSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'AlcVSS.dbo.Alc_mtr001LogChamadas' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Alc_mtr001LogChamadas">
+          <Key>
+            <PropertyRef Name="sequencial" />
+            <PropertyRef Name="evt_connid" />
+            <PropertyRef Name="evt_hora" />
+            <PropertyRef Name="evt_id" />
+            <PropertyRef Name="evt_nome" />
+            <PropertyRef Name="evt_origem" />
+            <PropertyRef Name="evt_fila" />
+            <PropertyRef Name="evt_agentid" />
+            <PropertyRef Name="evt_thisDN" />
+            <PropertyRef Name="evt_otherdn" />
+            <PropertyRef Name="evt_thisqueue" />
+            <PropertyRef Name="evt_otherqueue" />
+            <PropertyRef Name="evt_callstate" />
+            <PropertyRef Name="evt_registro" />
+          </Key>
+          <Property Name="sequencial" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="evt_connid" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_hora" Type="datetime" Nullable="false" />
+          <Property Name="evt_id" Type="int" Nullable="false" />
+          <Property Name="evt_nome" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_origem" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_fila" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_agentid" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_thisDN" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_otherdn" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_thisqueue" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_otherqueue" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="evt_callstate" Type="int" Nullable="false" />
+          <Property Name="evt_registro" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="AlcVSSModelStoreContainer">
+          <EntitySet Name="Alc_mtr001LogChamadas" EntityType="Self.Alc_mtr001LogChamadas" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Alc_mtr001LogChamadas].[sequencial] AS [sequencial], 
+    [Alc_mtr001LogChamadas].[evt_connid] AS [evt_connid], 
+    [Alc_mtr001LogChamadas].[evt_hora] AS [evt_hora], 
+    [Alc_mtr001LogChamadas].[evt_id] AS [evt_id], 
+    [Alc_mtr001LogChamadas].[evt_nome] AS [evt_nome], 
+    [Alc_mtr001LogChamadas].[evt_origem] AS [evt_origem], 
+    [Alc_mtr001LogChamadas].[evt_fila] AS [evt_fila], 
+    [Alc_mtr001LogChamadas].[evt_agentid] AS [evt_agentid], 
+    [Alc_mtr001LogChamadas].[evt_thisDN] AS [evt_thisDN], 
+    [Alc_mtr001LogChamadas].[evt_otherdn] AS [evt_otherdn], 
+    [Alc_mtr001LogChamadas].[evt_thisqueue] AS [evt_thisqueue], 
+    [Alc_mtr001LogChamadas].[evt_otherqueue] AS [evt_otherqueue], 
+    [Alc_mtr001LogChamadas].[evt_callstate] AS [evt_callstate], 
+    [Alc_mtr001LogChamadas].[evt_registro] AS [evt_registro]
+    FROM [dbo].[Alc_mtr001LogChamadas] AS [Alc_mtr001LogChamadas]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AlcVSSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Alc_mtr001LogChamadas">
+          <Key>
+            <PropertyRef Name="sequencial" />
+            <PropertyRef Name="evt_connid" />
+            <PropertyRef Name="evt_hora" />
+            <PropertyRef Name="evt_id" />
+            <PropertyRef Name="evt_nome" />
+            <PropertyRef Name="evt_origem" />
+            <PropertyRef Name="evt_fila" />
+            <PropertyRef Name="evt_agentid" />
+            <PropertyRef Name="evt_thisDN" />
+            <PropertyRef Name="evt_otherdn" />
+            <PropertyRef Name="evt_thisqueue" />
+            <PropertyRef Name="evt_otherqueue" />
+            <PropertyRef Name="evt_callstate" />
+            <PropertyRef Name="evt_registro" />
+          </Key>
+          <Property Name="sequencial" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="evt_connid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_hora" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="evt_id" Type="Int32" Nullable="false" />
+          <Property Name="evt_nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_origem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_fila" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_agentid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_thisDN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_otherdn" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_thisqueue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_otherqueue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="evt_callstate" Type="Int32" Nullable="false" />
+          <Property Name="evt_registro" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="AlcVSSEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Alc_mtr001LogChamadas" EntityType="Self.Alc_mtr001LogChamadas" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AlcVSSModelStoreContainer" CdmEntityContainer="AlcVSSEntities">
+          <EntitySetMapping Name="Alc_mtr001LogChamadas">
+            <EntityTypeMapping TypeName="AlcVSSModel.Alc_mtr001LogChamadas">
+              <MappingFragment StoreEntitySet="Alc_mtr001LogChamadas">
+                <ScalarProperty Name="sequencial" ColumnName="sequencial" />
+                <ScalarProperty Name="evt_connid" ColumnName="evt_connid" />
+                <ScalarProperty Name="evt_hora" ColumnName="evt_hora" />
+                <ScalarProperty Name="evt_id" ColumnName="evt_id" />
+                <ScalarProperty Name="evt_nome" ColumnName="evt_nome" />
+                <ScalarProperty Name="evt_origem" ColumnName="evt_origem" />
+                <ScalarProperty Name="evt_fila" ColumnName="evt_fila" />
+                <ScalarProperty Name="evt_agentid" ColumnName="evt_agentid" />
+                <ScalarProperty Name="evt_thisDN" ColumnName="evt_thisDN" />
+                <ScalarProperty Name="evt_otherdn" ColumnName="evt_otherdn" />
+                <ScalarProperty Name="evt_thisqueue" ColumnName="evt_thisqueue" />
+                <ScalarProperty Name="evt_otherqueue" ColumnName="evt_otherqueue" />
+                <ScalarProperty Name="evt_callstate" ColumnName="evt_callstate" />
+                <ScalarProperty Name="evt_registro" ColumnName="evt_registro" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

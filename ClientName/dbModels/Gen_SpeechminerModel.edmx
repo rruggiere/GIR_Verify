@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Alc_Gen_SPEECHMINERModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="callAudioTbl">
+          <Key>
+            <PropertyRef Name="callId" />
+            <PropertyRef Name="segmentId" />
+            <PropertyRef Name="owner" />
+            <PropertyRef Name="format" />
+            <PropertyRef Name="stretchSpeed" />
+            <PropertyRef Name="siteId" />
+          </Key>
+          <Property Name="callId" Type="int" Nullable="false" />
+          <Property Name="segmentId" Type="int" Nullable="false" />
+          <Property Name="owner" Type="int" Nullable="false" />
+          <Property Name="format" Type="int" Nullable="false" />
+          <Property Name="stretchSpeed" Type="real" Nullable="false" />
+          <Property Name="siteId" Type="int" Nullable="false" />
+          <Property Name="audioLen" Type="int" Nullable="false" />
+          <Property Name="samplingRate" Type="int" Nullable="false" />
+          <Property Name="storeMode" Type="int" Nullable="false" />
+          <Property Name="audio" Type="image" />
+          <Property Name="folder" Type="nvarchar(max)" />
+          <Property Name="filename" Type="varchar" MaxLength="256" />
+          <Property Name="encryptionKey" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="callMetaTbl">
+          <Key>
+            <PropertyRef Name="callId" />
+          </Key>
+          <Property Name="callId" Type="int" Nullable="false" />
+          <Property Name="customerId" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="customerGroupId" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="callTime" Type="int" Nullable="false" />
+          <Property Name="callDuration" Type="real" Nullable="false" />
+          <Property Name="programId" Type="int" Nullable="false" />
+          <Property Name="externalId" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="audioStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Alc_Gen_SPEECHMINERModelStoreContainer">
+          <EntitySet Name="callAudioTbl" EntityType="Self.callAudioTbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="callMetaTbl" EntityType="Self.callMetaTbl" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Alc_Gen_SPEECHMINERModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="callAudioTbl">
+          <Key>
+            <PropertyRef Name="callId" />
+            <PropertyRef Name="segmentId" />
+            <PropertyRef Name="owner" />
+            <PropertyRef Name="format" />
+            <PropertyRef Name="stretchSpeed" />
+            <PropertyRef Name="siteId" />
+          </Key>
+          <Property Name="callId" Type="Int32" Nullable="false" />
+          <Property Name="segmentId" Type="Int32" Nullable="false" />
+          <Property Name="owner" Type="Int32" Nullable="false" />
+          <Property Name="format" Type="Int32" Nullable="false" />
+          <Property Name="stretchSpeed" Type="Single" Nullable="false" />
+          <Property Name="siteId" Type="Int32" Nullable="false" />
+          <Property Name="audioLen" Type="Int32" Nullable="false" />
+          <Property Name="samplingRate" Type="Int32" Nullable="false" />
+          <Property Name="storeMode" Type="Int32" Nullable="false" />
+          <Property Name="audio" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="folder" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="filename" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="encryptionKey" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="callMetaTbl">
+          <Key>
+            <PropertyRef Name="callId" />
+          </Key>
+          <Property Name="callId" Type="Int32" Nullable="false" />
+          <Property Name="customerId" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="customerGroupId" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="callTime" Type="Int32" Nullable="false" />
+          <Property Name="callDuration" Type="Single" Nullable="false" />
+          <Property Name="programId" Type="Int32" Nullable="false" />
+          <Property Name="externalId" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="audioStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Alc_Gen_SPEECHMINEREntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="callAudioTbl" EntityType="Self.callAudioTbl" />
+          <EntitySet Name="callMetaTbl" EntityType="Self.callMetaTbl" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Alc_Gen_SPEECHMINERModelStoreContainer" CdmEntityContainer="Alc_Gen_SPEECHMINEREntities">
+          <EntitySetMapping Name="callAudioTbl">
+            <EntityTypeMapping TypeName="Alc_Gen_SPEECHMINERModel.callAudioTbl">
+              <MappingFragment StoreEntitySet="callAudioTbl">
+                <ScalarProperty Name="callId" ColumnName="callId" />
+                <ScalarProperty Name="segmentId" ColumnName="segmentId" />
+                <ScalarProperty Name="owner" ColumnName="owner" />
+                <ScalarProperty Name="format" ColumnName="format" />
+                <ScalarProperty Name="stretchSpeed" ColumnName="stretchSpeed" />
+                <ScalarProperty Name="siteId" ColumnName="siteId" />
+                <ScalarProperty Name="audioLen" ColumnName="audioLen" />
+                <ScalarProperty Name="samplingRate" ColumnName="samplingRate" />
+                <ScalarProperty Name="storeMode" ColumnName="storeMode" />
+                <ScalarProperty Name="audio" ColumnName="audio" />
+                <ScalarProperty Name="folder" ColumnName="folder" />
+                <ScalarProperty Name="filename" ColumnName="filename" />
+                <ScalarProperty Name="encryptionKey" ColumnName="encryptionKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="callMetaTbl">
+            <EntityTypeMapping TypeName="Alc_Gen_SPEECHMINERModel.callMetaTbl">
+              <MappingFragment StoreEntitySet="callMetaTbl">
+                <ScalarProperty Name="callId" ColumnName="callId" />
+                <ScalarProperty Name="customerId" ColumnName="customerId" />
+                <ScalarProperty Name="customerGroupId" ColumnName="customerGroupId" />
+                <ScalarProperty Name="callTime" ColumnName="callTime" />
+                <ScalarProperty Name="callDuration" ColumnName="callDuration" />
+                <ScalarProperty Name="programId" ColumnName="programId" />
+                <ScalarProperty Name="externalId" ColumnName="externalId" />
+                <ScalarProperty Name="audioStatus" ColumnName="audioStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

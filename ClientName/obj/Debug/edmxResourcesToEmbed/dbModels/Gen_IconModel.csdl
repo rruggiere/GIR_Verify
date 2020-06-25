@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Alc_Gen_ICONModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="G_CALL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="16" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CALLID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PARENTCALLID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MERGECALLID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MERGETYPE" Type="Int32" />
+    <Property Name="CONNID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CONNIDNUM" Type="Decimal" Precision="20" Scale="0" />
+    <Property Name="SWITCHCALLID" Type="Int32" />
+    <Property Name="IRID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ROOTIRID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="STATE" Type="Int32" />
+    <Property Name="CALLTYPE" Type="Int32" />
+    <Property Name="MEDIATYPE" Type="Int32" />
+    <Property Name="SWITCHID" Type="Int32" />
+    <Property Name="TENANTID" Type="Int32" />
+    <Property Name="CALLANI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CALLDNIS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CREATED_TS" Type="Int32" />
+    <Property Name="CREATED_TCODE" Type="Int32" />
+    <Property Name="TERMINATED" Type="DateTime" Precision="3" />
+    <Property Name="TERMINATED_TS" Type="Int32" />
+    <Property Name="TERMINATED_TCODE" Type="Int32" />
+    <Property Name="GSYS_DOMAIN" Type="Int32" />
+    <Property Name="GSYS_PARTITION" Type="Int32" />
+    <Property Name="GSYS_SYS_ID" Type="Int32" />
+    <Property Name="GSYS_SEQ" Type="Int64" />
+    <Property Name="GSYS_USEQ" Type="Int64" />
+    <Property Name="GSYS_TS" Type="DateTime" Precision="3" />
+    <Property Name="GSYS_TC" Type="Int32" />
+    <Property Name="GSYS_EXT_VCH1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="GSYS_EXT_VCH2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="GSYS_EXT_INT1" Type="Int32" />
+    <Property Name="GSYS_EXT_INT2" Type="Int32" />
+  </EntityType>
+  <EntityType Name="G_PARTY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="16" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PARTYID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PARTYGUID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TYPE" Type="Int32" Nullable="false" />
+    <Property Name="PROLE" Type="Int32" Nullable="false" />
+    <Property Name="PARENTPARTYID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PARENTLINKTYPE" Type="Int32" />
+    <Property Name="CALLID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STATE" Type="Int32" Nullable="false" />
+    <Property Name="ENDPOINTDN" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ENDPOINTID" Type="Int32" Nullable="false" />
+    <Property Name="ENDPOINTTYPE" Type="Int32" Nullable="false" />
+    <Property Name="TENANTID" Type="Int32" />
+    <Property Name="AGENTID" Type="Int32" />
+    <Property Name="CCEVENT" Type="Int32" />
+    <Property Name="CCEVENTCAUSE" Type="Int32" />
+    <Property Name="CREATED" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CREATED_TS" Type="Int32" />
+    <Property Name="CREATED_TCODE" Type="Int32" />
+    <Property Name="TERMINATED" Type="DateTime" Precision="3" />
+    <Property Name="TERMINATED_TS" Type="Int32" />
+    <Property Name="TERMINATED_TCODE" Type="Int32" />
+    <Property Name="LASTCHANGE" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LASTCHANGE_TS" Type="Int32" />
+    <Property Name="LASTCHANGE_TCODE" Type="Int32" />
+    <Property Name="GSYS_DOMAIN" Type="Int32" />
+    <Property Name="GSYS_PARTITION" Type="Int32" />
+    <Property Name="GSYS_SYS_ID" Type="Int32" />
+    <Property Name="GSYS_SEQ" Type="Int64" />
+    <Property Name="GSYS_USEQ" Type="Int64" />
+    <Property Name="GSYS_TS" Type="DateTime" Precision="3" />
+    <Property Name="GSYS_TC" Type="Int32" />
+    <Property Name="GSYS_EXT_VCH1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="GSYS_EXT_VCH2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="GSYS_EXT_INT1" Type="Int32" />
+    <Property Name="GSYS_EXT_INT2" Type="Int32" />
+    <Property Name="TS_PARENTPARTYGUID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="G_PARTY_STAT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="16" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PARTYID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TT_ALERTING" Type="Int32" />
+    <Property Name="TT_CONNECTED" Type="Int32" />
+    <Property Name="TT_HOLD" Type="Int32" />
+    <Property Name="TT_QUEUED" Type="Int32" />
+    <Property Name="TT_ACW" Type="Int32" />
+    <Property Name="CNT_ALERTING" Type="Int32" />
+    <Property Name="CNT_CONNECTED" Type="Int32" />
+    <Property Name="CNT_HOLD" Type="Int32" />
+    <Property Name="CNT_QUEUED" Type="Int32" />
+    <Property Name="CNT_ACW" Type="Int32" />
+    <Property Name="TT_ON_ALERT" Type="Int32" />
+    <Property Name="TT_ON_HOLD" Type="Int32" />
+    <Property Name="TT_ON_QUEUE" Type="Int32" />
+    <Property Name="TT_ON_CONNECTED" Type="Int32" />
+    <Property Name="T_DURATION" Type="Int32" />
+    <Property Name="GSYS_DOMAIN" Type="Int32" />
+    <Property Name="GSYS_PARTITION" Type="Int32" />
+    <Property Name="GSYS_SYS_ID" Type="Int32" />
+    <Property Name="GSYS_SEQ" Type="Int64" />
+    <Property Name="GSYS_USEQ" Type="Int64" />
+    <Property Name="GSYS_TS" Type="DateTime" Precision="3" />
+    <Property Name="GSYS_TC" Type="Int32" />
+    <Property Name="GSYS_EXT_VCH1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="GSYS_EXT_VCH2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="GSYS_EXT_INT1" Type="Int32" />
+    <Property Name="GSYS_EXT_INT2" Type="Int32" />
+    <Property Name="PM_EXT_1" Type="Int32" />
+    <Property Name="PM_EXT_2" Type="Int32" />
+    <Property Name="PM_EXT_3" Type="Int32" />
+    <Property Name="PM_EXT_4" Type="Int32" />
+    <Property Name="PM_EXT_5" Type="Int32" />
+    <Property Name="PM_EXT_6" Type="Int32" />
+    <Property Name="PM_EXT_7" Type="Int32" />
+    <Property Name="PM_EXT_8" Type="Int32" />
+    <Property Name="PM_EXT_9" Type="Int32" />
+    <Property Name="PM_EXT_10" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="Alc_Gen_ICONEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="G_CALL" EntityType="Self.G_CALL" />
+    <EntitySet Name="G_PARTY" EntityType="Self.G_PARTY" />
+    <EntitySet Name="G_PARTY_STAT" EntityType="Self.G_PARTY_STAT" />
+  </EntityContainer>
+</Schema>
